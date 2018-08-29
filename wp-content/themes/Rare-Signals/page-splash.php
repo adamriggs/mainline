@@ -5,7 +5,7 @@
 
 		<section class="splash">
 			<img class="splash__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/header.png">
-			<video autoplay loop class="splash__video">
+			<video autoplay loop muted class="splash__video">
 				<source class="splash__video" src="<?php echo get_template_directory_uri(); ?>/assets/vid/loopingbanner.mp4">
 			</video>
 		</section>
