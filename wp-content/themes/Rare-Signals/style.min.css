@@ -18,8 +18,9 @@ h1,h2{font-size:40px;line-height:48px}
 img{max-width:100%}
 p{font-family:'HaasGrotRoman';font-size:20px;line-height:40px;margin:40px 0}
 section{margin:0 auto 90px;max-width:1080px;padding:0 20px}
-.splash{background-image:url("assets/img/header.jpg");max-width:100%;margin:0;padding:0}
-.splash__video{width:100%}
+.splash{max-width:100%;margin:0;padding:0}
+.splash__img{position:absolute;z-index:-1}
+.splash__video{width:100%;position:static}
 .intro__play__button{display:block;margin-bottom:40px;width:22px}
 .intro__header{display:inline-block}
 .intro__link__container{display:inline-block;float:right}

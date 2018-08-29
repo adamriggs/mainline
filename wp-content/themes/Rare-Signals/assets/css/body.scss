@@ -34,14 +34,20 @@ section {
 }
 
 .splash {
-	background-image: url('assets/img/header.jpg');
+	//background-image: url('assets/img/header.jpg');
 	max-width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
+.splash__img {
+	position: absolute;
+	z-index: -1;
+}
+
 .splash__video {
 	width: 100%;
+	position: static;
 }
 
 .intro__play__button {
