@@ -6,7 +6,51 @@ blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 h1{font-size:40px}
-@font-face{font-family:'HaasGrotRoman';src:url("fonts/NeueHaasGrotDisp-55Roman.otf")}
-.header__logo{padding:40px;position:fixed}
-body{background-color:#202020;color:#fff;font-family:'HaasGrotRoman';margin:0 20px}
-.splash__img{max-width:100%}
+@font-face{font-family:'HaasGrotRoman';src:url("assets/fonts/NeueHaasGrotDisp-55Roman.otf")}
+@font-face{font-family:'HaasGrotMedium';src:url("assets/fonts/NeueHaasGrotDisp-65Medium.otf")}
+@font-face{font-family:'HelveticaNeue';src:url("assets/fonts/HelveticaNeue.ttc")}
+@font-face{font-family:'Wingdings';src:url("assets/fonts/Wingdings3.ttf")}
+@font-face{font-family:'Social';src:url("assets/fonts/fontsocialmedia.ttf")}
+.header__logo{padding:40px;position:absolute;z-index:9}
+body{background-color:#202020;color:#fff;font-family:'HaasGrotMedium'}
+a{color:#fff;text-decoration:none}
+h1,h2{font-size:40px;line-height:48px}
+img{max-width:100%}
+p{font-family:'HaasGrotRoman';font-size:20px;line-height:40px;margin:40px 0}
+section{margin:0 auto 90px;max-width:1080px;padding:0 20px}
+.splash{background-image:url("assets/img/header.jpg");max-width:100%;margin:0;padding:0}
+.splash__video{width:100%}
+.intro__play__button{display:block;margin-bottom:40px;width:22px}
+.intro__header{display:inline-block}
+.intro__link__container{display:inline-block;float:right}
+.intro__link{border-bottom:1px solid #797980;display:inline-block;font-family:'HaasGrotMedium';margin:0 20px;padding:0 40px 10px 0;text-align:left}
+.intro__link__buy{border-bottom:1px solid #a99257;display:none}
+.nav__container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;display:none;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:100px}
+.nav__item{font-size:25px;border-bottom:1px solid #797980;padding-bottom:10px;width:31%}
+.operation__content{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}
+.operation__content__text{margin:0;width:65%}
+.reverb__diagram{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}
+.reverb__diagram div{width:45%}
+.reverb__diagram__right__text{font-size:10px;margin:0}
+.reverb__text{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}
+.reverb__text p{width:45%}
+footer{border-top:1px solid #797980;margin:0 auto;max-width:1080px;padding:40px 20px}
+.footer__top{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:90px;width:100%}
+.footer__top__signup__input{background:transparent;border:0;border-bottom:1px solid #fff;font-size:25px;padding-bottom:10px}
+.footer__top__signup__submit__container{display:inline-block}
+.footer__top__signup__submit{background:transparent;border:0;color:#a99257;display:inline-block;font-family:'Wingdings';font-size:30px;left:-30px;position:relative}
+.footer__top__social ul{color:#202020;display:inline;font-family:'social'}
+.footer__top__social ul li{display:inline;padding:0 5px}
+.footer__top__social ul li a{font-size:34px}
+.footer__legal{font-size:10px}
+@media only screen and (max-width:768px){.operation__content{display:block}
+.operation__content__title{margin-bottom:40px}
+.operation__content__text{width:100%}
+.reverb__title{margin-bottom:40px}
+.reverb__diagram{display:block}
+.reverb__diagram div{width:100%}
+.reverb__text{display:block}
+.reverb__text p{width:100%}
+.footer__top{display:block}
+.footer__top div{margin-bottom:40px}
+}

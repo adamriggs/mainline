@@ -2,10 +2,134 @@
 body {
 	background-color: $color-dark-gray;
 	color: $color-white;
-	font-family: 'HaasGrotRoman';
-	margin: 0 20px;
+	font-family: 'HaasGrotMedium';
 }
 
-.splash__img {
+a {
+	color: $color-white;
+	text-decoration: none;
+}
+
+h1,
+h2 {
+	font-size: 40px;
+	line-height: 48px;
+}
+
+img {
 	max-width: 100%;
+}
+
+p {
+	font-family: 'HaasGrotRoman';
+	font-size: 20px;
+	line-height: 40px;
+	margin: 40px 0;
+}
+
+section {
+	margin: 0 auto 90px;
+	max-width: $max-width;
+	padding: 0 20px;
+}
+
+.splash {
+	background-image: url('assets/img/header.jpg');
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.splash__video {
+	width: 100%;
+}
+
+.intro__play__button {
+	display: block;
+	margin-bottom: 40px;
+	width: 22px;
+}
+
+.intro__header {
+	display: inline-block;
+}
+.intro__link__container {
+	display: inline-block;
+	float: right;
+}
+
+.intro__link {
+	border-bottom: 1px solid $color-light-gray;
+	display: inline-block;
+	font-family: 'HaasGrotMedium';
+	margin: 0 20px;
+	padding: 0 40px 10px 0;
+	text-align: left;
+}
+
+.intro__link__buy {
+	border-bottom: 1px solid $color-gold;
+	display: none;
+}
+
+.nav__container {
+	display: flex;
+	display: none;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.nav__item {
+	font-size: 25px;
+	border-bottom: 1px solid $color-light-gray;
+	padding-bottom: 10px;
+	width: 31%;
+}
+
+.operation__content {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.operation__content__text {
+	margin: 0;
+	width: 65%;
+}
+
+.reverb__diagram {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+
+	div { width: 45%; }
+}
+
+.reverb__diagram__right__text {
+	font-size: 10px;
+	margin: 0;
+}
+
+.reverb__text {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+
+	p {
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: $width-tablet) {
+	.operation__content { display: block; }
+	.operation__content__title { margin-bottom: 40px; }
+	.operation__content__text { width: 100%; }
+
+	.reverb__title { margin-bottom: 40px; }
+	.reverb__diagram { display: block; }
+	.reverb__diagram div { width: 100%; }
+	.reverb__text { display: block; }
+	.reverb__text p { width: 100%; }
+
 }
