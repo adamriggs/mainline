@@ -11,7 +11,7 @@
 		</section>
 
 		<section class="intro">
-			<a class="intro__play" href=""><img class="intro__play__button" src="<?php echo get_template_directory_uri(); ?>/assets/img/play.svg"></a>
+			<a class="intro__play" href="https://www.youtube.com/watch?v=1jnCzh64z2M"><img class="intro__play__button" src="<?php echo get_template_directory_uri(); ?>/assets/img/play.svg"></a>
 			<h1 class="intro__header">Transatlantic Plate Reverb</h1>
 
 			<div class="intro__link__container">
