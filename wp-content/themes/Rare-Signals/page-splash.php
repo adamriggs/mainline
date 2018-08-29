@@ -72,7 +72,7 @@
 		</section>
 
 		<section id="reverb" class="reverb">
-			<h2 class="reverb__title">Reverb Trails</h2>
+			<h2 class="reverb__title">Reverb Tails</h2>
 
 			<div class="reverb__diagram">
 				<div class="reverb__diagram__left"></div>
