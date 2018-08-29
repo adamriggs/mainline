@@ -12,11 +12,11 @@ h1{font-size:40px}
 @font-face{font-family:'Wingdings';src:url("assets/fonts/Wingdings3.ttf")}
 @font-face{font-family:'Social';src:url("assets/fonts/fontsocialmedia.ttf")}
 .header__logo{padding:40px;position:absolute;z-index:9}
-body{background-color:#202020;color:#fff;font-family:'HaasGrotMedium';-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body{background-color:#202020;color:#fff;font-family:'NHaasGroteskTXW01-65Md';-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 a{color:#fff;text-decoration:none}
 h1,h2{font-size:40px;line-height:48px}
 img{max-width:100%}
-p{font-family:'HaasGrotRoman';font-size:20px;line-height:40px;margin:40px 0}
+p{font-family:'NeueHaasGroteskText W01';font-size:20px;line-height:40px;margin:40px 0}
 section{margin:0 auto 90px;max-width:1080px;padding:0 20px}
 .splash{max-width:100%;margin:0;padding:0}
 .splash__img{position:absolute;z-index:-1}
@@ -24,7 +24,7 @@ section{margin:0 auto 90px;max-width:1080px;padding:0 20px}
 .intro__play__button{display:block;margin-bottom:40px;width:22px}
 .intro__header{display:inline-block}
 .intro__link__container{display:inline-block;float:right}
-.intro__link{border-bottom:1px solid #797980;display:inline-block;font-family:'HaasGrotMedium';margin:0 20px;padding:0 40px 10px 0;text-align:left}
+.intro__link{border-bottom:1px solid #797980;display:inline-block;font-family:'NHaasGroteskTXW01-65Md';margin:0 20px;padding:0 40px 10px 0;text-align:left}
 .intro__link__buy{border-bottom:1px solid #a99257;display:none}
 .nav__container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;display:none;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:100px}
 .nav__item{font-size:25px;border-bottom:1px solid #797980;padding-bottom:10px;width:31%}

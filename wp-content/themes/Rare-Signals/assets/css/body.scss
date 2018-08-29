@@ -2,7 +2,7 @@
 body {
 	background-color: $color-dark-gray;
 	color: $color-white;
-	font-family: 'HaasGrotMedium';
+	font-family: 'NHaasGroteskTXW01-65Md';
 
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -24,7 +24,7 @@ img {
 }
 
 p {
-	font-family: 'HaasGrotRoman';
+	font-family: 'NeueHaasGroteskText W01';
 	font-size: 20px;
 	line-height: 40px;
 	margin: 40px 0;
@@ -70,7 +70,7 @@ section {
 .intro__link {
 	border-bottom: 1px solid $color-light-gray;
 	display: inline-block;
-	font-family: 'HaasGrotMedium';
+	font-family: 'NHaasGroteskTXW01-65Md';
 	margin: 0 20px;
 	padding: 0 40px 10px 0;
 	text-align: left;
