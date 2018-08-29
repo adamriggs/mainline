@@ -42,3 +42,7 @@ node_modules
 # Uploads #
 ###########
 wp-content/uploads/
+
+# wp-config #
+#############
+wp-config.php
