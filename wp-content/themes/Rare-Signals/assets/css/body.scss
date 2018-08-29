@@ -153,6 +153,8 @@ section {
 }
 
 @media only screen and (max-width: $width-medium) {
+	.intro__link__container { display: block; float: none; }
+	.intro__link { margin: 20px 0; }
 	.operation__content { display: block; }
 	.operation__content__title { margin-bottom: 40px; }
 	.operation__content__text { width: 100%; }
@@ -167,19 +169,4 @@ section {
 	.reverb__diagram__right__text { font-size: 14px; }
 	.reverb__text { display: block; }
 	.reverb__text p { width: 100%; }
-
-	.footer__top { position: relative; }
-	.footer__top__signup {
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-	.footer__top__social { float: right; margin: 20px 0 0 0; }
-
-}
-
-@media only screen and (max-width: 500px) {
-	.footer__top { position: relative; }
-	.footer__top__signup { position: inherit; }
-	.footer__top__social { float: none; margin: 0 0 40px 0; }
 }

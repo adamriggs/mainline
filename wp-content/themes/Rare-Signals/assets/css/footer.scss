@@ -57,7 +57,19 @@ footer {
 
 @media only screen and (max-width: $width-medium) {
 
-	.footer__top { display: block; }
+	.footer__top { display: block; position: relative; }
 	.footer__top div { margin-bottom: 40px; }
+	.footer__top__signup {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.footer__top__social { float: right; margin: 20px 0 0 0; }
 
+}
+
+@media only screen and (max-width: 500px) {
+	.footer__top { position: relative; }
+	.footer__top__signup { position: inherit; }
+	.footer__top__social { float: none; margin: 0 0 40px 0; }
 }
