@@ -12,7 +12,7 @@ h1{font-size:40px}
 @font-face{font-family:'Wingdings';src:url("assets/fonts/Wingdings3.ttf")}
 @font-face{font-family:'Social';src:url("assets/fonts/fontsocialmedia.ttf")}
 .header__logo{padding:40px;position:absolute;z-index:9}
-body{background-color:#202020;color:#fff;font-family:'HaasGrotMedium'}
+body{background-color:#202020;color:#fff;font-family:'HaasGrotMedium';-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 a{color:#fff;text-decoration:none}
 h1,h2{font-size:40px;line-height:48px}
 img{max-width:100%}

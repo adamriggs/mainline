@@ -3,6 +3,9 @@ body {
 	background-color: $color-dark-gray;
 	color: $color-white;
 	font-family: 'HaasGrotMedium';
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a {
