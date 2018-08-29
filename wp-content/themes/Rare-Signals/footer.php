@@ -23,9 +23,9 @@
 
 	        	<div class="footer__top__social">
 	        		<ul>
-	        			<li><a href="http://facebook.com/raresignals">f</></li>
-	        			<li><a href="http://twitter.com/raresignals">t</a></li>
-	        			<li><a href="http://instagram.com/raresignals">c</a></li>
+	        			<li><a href="http://facebook.com/raresignals"><i class="fab fa-facebook"></i></a></li>
+	        			<li><a href="http://twitter.com/raresignals"><i class="fab fa-twitter"></i></a></li>
+	        			<li><a href="http://instagram.com/raresignals"><i class="fab fa-instagram"></i></a></li>
 	        		</ul>
 	        	</div>
 	        </div>
