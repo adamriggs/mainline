@@ -6,11 +6,7 @@ blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 h1{font-size:40px}
-@font-face{font-family:'HaasGrotRoman';src:url("assets/fonts/NeueHaasGrotDisp-55Roman.otf")}
-@font-face{font-family:'HaasGrotMedium';src:url("assets/fonts/NeueHaasGrotDisp-65Medium.otf")}
-@font-face{font-family:'HelveticaNeue';src:url("assets/fonts/HelveticaNeue.ttc")}
 @font-face{font-family:'Wingdings';src:url("assets/fonts/Wingdings3.ttf")}
-@font-face{font-family:'Social';src:url("assets/fonts/fontsocialmedia.ttf")}
 .header__logo{padding:40px;position:absolute;z-index:9}
 body{background-color:#202020;color:#fff;font-family:'NHaasGroteskTXW01-65Md';-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 a{color:#fff;text-decoration:none}
@@ -43,7 +39,8 @@ footer{border-top:1px solid #797980;margin:0 auto;max-width:1080px;padding:40px 
 .footer__top{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:90px;width:100%}
 .footer__top__signup__input{background:transparent;border:0;border-bottom:1px solid #fff;font-size:25px;padding-bottom:10px}
 .footer__top__signup__submit__container{display:inline-block}
-.footer__top__signup__submit{background:transparent;border:0;color:#a99257;display:inline-block;font-family:'Wingdings';font-size:30px;left:-30px;position:relative}
+.footer__top__signup__submit{display:none}
+.footer__top__signup__button{cursor:pointer;left:-30px;position:relative;vertical-align:sub;width:25px}
 .footer__top__social ul{color:#202020;display:inline;font-family:'social'}
 .footer__top__social ul li{display:inline;padding:0 5px}
 .footer__top__social ul li a{font-size:34px}

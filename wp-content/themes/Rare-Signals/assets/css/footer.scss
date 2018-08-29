@@ -26,14 +26,15 @@ footer {
 }
 
 .footer__top__signup__submit {
-	background: transparent;
-	border: none;
-	color: $color-gold;
-	display: inline-block;
-	font-family: 'Wingdings';
-	font-size: 30px;
+	display: none;
+}
+
+.footer__top__signup__button {
+	cursor: pointer;
 	left: -30px;
 	position: relative;
+	vertical-align: sub;
+	width: 25px;
 }
 
 .footer__top__social ul {
