@@ -55,7 +55,7 @@ footer {
 	font-size: 10px;
 }
 
-@media only screen and (max-width: $width-tablet) {
+@media only screen and (max-width: $width-medium) {
 
 	.footer__top { display: block; }
 	.footer__top div { margin-bottom: 40px; }

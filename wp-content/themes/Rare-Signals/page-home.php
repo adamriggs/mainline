@@ -4,7 +4,6 @@
 	<main id="main" class="site-main" role="main">
 
 		<section class="splash">
-			<!-- <img class="splash__img" src="<?php echo get_template_directory_uri(); ?>/assets/img/header.png"> -->
 			<video autoplay loop class="splash__video">
 				<source class="splash__video" src="<?php echo get_template_directory_uri(); ?>/assets/vid/loopingbanner.mp4">
 			</video>
@@ -43,7 +42,32 @@
 		</section>
 
 		<section class="diagram">
-			<img class="diagram__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/Diagram.png">
+			<img class="diagram__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/diagram.png">
+			<div class="diagram__mobile">
+				<img class="diagram__mobile__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/diagram-mobile.png">
+
+				<div class="diagram__mobile__text">
+					<div class="diagram__mobile__text__row">
+						<div class="diagram__mobile__text__row__number">1</div>
+						<p>The default settings are optimized to provide impeccable sound – but all the settings are adjustable to suit your needs.</p>
+					</div>
+
+					<div class="diagram__mobile__text__row">
+						<div class="diagram__mobile__text__row__number">2</div>
+						<p>There are twelve divisions of decay with settings that preserve the natural tails that are inherent in plate reverbs.</p>
+					</div>
+
+					<div class="diagram__mobile__text__row">
+						<div class="diagram__mobile__text__row__number">3</div>
+						<p>Pre-delay can help manage clarity in an effected signal as well as provide some rhythmic control to the overall effected sound.</p>
+					</div>
+
+					<div class="diagram__mobile__text__row">
+						<div class="diagram__mobile__text__row__number">4</div>
+						<p>This switch toggles between two completely different plates: one modeled from a 1970s Nashville plate, the other from a famous German manufactured plate.</p>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section id="reverb" class="reverb">

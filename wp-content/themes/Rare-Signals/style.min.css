@@ -29,6 +29,10 @@ section{margin:0 auto 90px;max-width:1080px;padding:0 20px}
 .nav__item{font-size:25px;border-bottom:1px solid #797980;padding-bottom:10px;width:31%}
 .operation__content{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}
 .operation__content__text{margin:0;width:65%}
+.diagram__mobile{display:none}
+.diagram__mobile__text__row{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;padding:20px 0}
+.diagram__mobile__text__row .diagram__mobile__text__row__number{background:#fff;border-radius:50%;color:#202020;display:inline-block;height:20px;margin:10px 0 0 30px;padding-top:5px;text-align:center;width:25px}
+.diagram__mobile__text__row p{display:inline-block;margin:0;width:80%}
 .reverb__diagram{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}
 .reverb__diagram div{width:45%}
 .reverb__diagram__right__text{font-size:10px;margin:0}
@@ -46,11 +50,21 @@ footer{border-top:1px solid #797980;margin:0 auto;max-width:1080px;padding:40px 
 @media only screen and (max-width:768px){.operation__content{display:block}
 .operation__content__title{margin-bottom:40px}
 .operation__content__text{width:100%}
+.diagram__desktop{display:none}
+.diagram__mobile{display:block}
 .reverb__title{margin-bottom:40px}
 .reverb__diagram{display:block}
 .reverb__diagram div{width:100%}
+.reverb__diagram__right__image{width:100%}
+.reverb__diagram__right__text{font-size:14px}
 .reverb__text{display:block}
 .reverb__text p{width:100%}
+.footer__top{position:relative}
+.footer__top__signup{position:absolute;right:0;top:0}
+.footer__top__social{float:right;margin:20px 0 0 0}
 .footer__top{display:block}
 .footer__top div{margin-bottom:40px}
+}@media only screen and (max-width:500px){.footer__top{position:relative}
+.footer__top__signup{position:inherit}
+.footer__top__social{float:none;margin:0 0 40px 0}
 }
