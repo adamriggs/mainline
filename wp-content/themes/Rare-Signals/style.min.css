@@ -6,9 +6,8 @@ blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 h1{font-size:40px}
-@font-face{font-family:'Wingdings';src:url("assets/fonts/Wingdings3.ttf")}
 .header__logo{padding:40px;position:absolute;z-index:9}
-body{background-color:#202020;color:#fff;font-family:'NHaasGroteskTXW01-65Md';-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#202020;color:#fff;font-family:'NHaasGroteskTXW01-65Md'}
 a{color:#fff;text-decoration:none}
 h1,h2{font-size:40px;line-height:48px}
 img{max-width:100%}

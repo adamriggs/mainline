@@ -1,11 +1,10 @@
 
 body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	background-color: $color-dark-gray;
 	color: $color-white;
 	font-family: 'NHaasGroteskTXW01-65Md';
-
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 a {

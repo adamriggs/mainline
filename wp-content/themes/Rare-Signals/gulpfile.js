@@ -100,6 +100,7 @@ var sass         = require('gulp-sass'); // Gulp pluign for Sass compilation.
 var minifycss    = require('gulp-uglifycss'); // Minifies CSS files.
 var autoprefixer = require('gulp-autoprefixer'); // Autoprefixing magic.
 var mmq          = require('gulp-merge-media-queries'); // Combine matching media queries into one media query definition.
+var sassLint     = require('gulp-sass-lint');
 
 // JS related plugins.
 var concat       = require('gulp-concat'); // Concatenates JS files
@@ -203,6 +204,12 @@ gulp.task( 'browser-sync', function() {
     .pipe( filter( '**/*.css' ) ) // Filtering stream to only css files
     .pipe( browserSync.stream() )// Reloads style.min.css if that is enqueued.
     .pipe( notify( { message: 'TASK: "styles" Completed! 💯', onLast: true } ) )
+ });
+
+ gulp.task('scss-lint', function() {
+  return gulp.src('assets/css/**/*.s+(a|c)ss')
+    .pipe(sassLint())
+    .pipe(sassLint.format())
  });
 
 
@@ -316,8 +323,9 @@ gulp.task( 'browser-sync', function() {
   *
   * Watches for file changes and runs specific tasks.
   */
- gulp.task( 'default', ['styles', 'vendorsJs', 'customJS', 'images', 'browser-sync'], function () {
+ gulp.task( 'default', ['scss-lint', 'styles', 'vendorsJs', 'customJS', 'images', 'browser-sync'], function () {
   gulp.watch( projectPHPWatchFiles, reload ); // Reload on PHP file changes.
+  gulp.watch( styleWatchFiles, [ 'scss-lint' ] );
   gulp.watch( styleWatchFiles, [ 'styles' ] ); // Reload on SCSS file changes.
   gulp.watch( vendorJSWatchFiles, [ 'vendorsJs', reload ] ); // Reload on vendorsJs file changes.
   gulp.watch( customJSWatchFiles, [ 'customJS', reload ] ); // Reload on customJS file changes.
