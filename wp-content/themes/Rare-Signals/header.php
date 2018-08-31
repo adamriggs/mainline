@@ -13,6 +13,6 @@
 <body <?php body_class(); ?>>
 
 	<header>
-		<img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png">
+		<a href="/"><img class="header__logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png"></a>
 
 	</header>
